@@ -392,7 +392,7 @@ tr:nth-child(even) {
     <li><strong>CV Trigger</strong>: Triggers the voice.</li>
     <li><strong>CV Param 1</strong>: Controls the primary sound synthesis parameter.</li>
     <li><strong>CV Param 2</strong>: Controls the secondary sound synthesis parameter.</li>
-    <li><strong>CV Select</strong>: Selects the voice.</li>
+    <li><strong>CV Select</strong>: Selects the voice, 5v divided by 16 algorithms, about 0.3v steps.</li>
   </ul>
 
   <h2>Navigation Button</h2>
@@ -506,9 +506,9 @@ tr:nth-child(even) {
       </tr>
       <tr>
         <td>2</td>
-        <td>TBD</td>
-        <td>TBD</td>
-        <td>TBD</td>
+        <td><strong>Metallic cowbell</strong>: Classic cowbell to metallic noise.</td>
+        <td>Wavefolder depth</td>
+        <td>Crossfading cowbell to metallic cymbal oscillators</td>
       </tr>
       <tr>
         <td>3</td>
@@ -554,8 +554,8 @@ tr:nth-child(even) {
       <tr>
         <td>2</td>
         <td><strong>Tokyo Bell</strong>: Life is simple. You make choices and you don't look back.</td>
-        <td>Mallet Strike Pitch & Transient</td>
-        <td>Resonance Feedback Decay & Harmonics</td>
+        <td>Detuning</td>
+        <td>Harmonics level</td>
       </tr>
       <tr>
         <td>3</td>
@@ -565,9 +565,9 @@ tr:nth-child(even) {
       </tr>
       <tr>
         <td>4</td>
-        <td><strong>Tom</strong>: FM synthesis with dynamic triangle modulator and wavefolder saturation.</td>
+        <td><strong>Tom</strong>: 808 to 909 tom.</td>
         <td>FM Index & Sweep</td>
-        <td>Body Resonance & Tail Ambience</td>
+        <td>Noise level</td>
       </tr>
     </tbody>
   </table>
@@ -633,6 +633,26 @@ tr:nth-child(even) {
     <li><strong>CC 5</strong>: Param 1</li>
     <li><strong>CC 6</strong>: Param 2</li>
     <li><strong>CC 7</strong>: Algorithm select</li>
+  </ul>
+
+  <h2>Notes Mapping</h2>
+  <ul>
+    <li><strong>60 (C3)</strong>: Algorithm 0</li>
+    <li><strong>61 (C#3)</strong>: Algorithm 1</li>
+    <li><strong>62 (D3)</strong>: Algorithm 2</li>
+    <li><strong>63 (D#3)</strong>: Algorithm 3</li>
+    <li><strong>64 (E3)</strong>: Algorithm 4</li>
+    <li><strong>65 (F3)</strong>: Algorithm 5</li>
+    <li><strong>66 (F#3)</strong>: Algorithm 6</li>
+    <li><strong>67 (G3)</strong>: Algorithm 7</li>
+    <li><strong>68 (G#3)</strong>: Algorithm 8</li>
+    <li><strong>69 (A3)</strong>: Algorithm 9</li>
+    <li><strong>70 (A#3)</strong>: Algorithm 10</li>
+    <li><strong>71 (B3)</strong>: Algorithm 11</li>
+    <li><strong>72 (C4)</strong>: Algorithm 12</li>
+    <li><strong>73 (C#4)</strong>: Algorithm 13</li>
+    <li><strong>74 (D4)</strong>: Algorithm 14</li>
+    <li><strong>75 (D#4)</strong>: Algorithm 15</li>
   </ul>
 
   <!-- Page footer with page number 10 -->
