@@ -12,4 +12,4 @@ This module is going to be fully open-source, but I have yet to document everyth
 
 The complete user manual, including controls, algorithm guide, looper operation, and firmware update instructions, is available in PDF format:
 
-👉 **[Download Drone User Manual (PDF)](./docs/user-manual.pdf)**
+👉 **[Download the User Manual (PDF)](./docs/user-manual.pdf)**
