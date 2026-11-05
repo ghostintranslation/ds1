@@ -16,6 +16,6 @@ The complete user manual, including controls, algorithm guide, looper operation,
 
 ## Firmware
 
-The firmare can be found in this repo under firmware, here is a quick link: 
+The firmware can be found in this repo under firmware, here is a quick link: 
 
 👉 **[Download the latest firmware](./firmware/ds1_1.0.1.uf2)**
