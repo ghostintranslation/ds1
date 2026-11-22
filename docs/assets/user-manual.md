@@ -673,7 +673,7 @@ tr:nth-child(even) {
     <li><strong>Press and hold BOOTSEL</strong>: Locate the physical <strong>BOOTSEL</strong> button on the microcontroller (Pico 2) on the back of the module, and hold it down.</li>
     <li><strong>Connect to Computer</strong>: While holding the <strong>BOOTSEL</strong> button, connect the Pico 2 to your computer via a USB cable.</li>
     <li><strong>Release BOOTSEL</strong>: Once the USB cable is plugged in, release the button. The Pico 2 will mount on your computer as a USB mass storage drive.</li>
-    <li><strong>Transfer the Firmware</strong>: Locate the compiled firmware file <code>firmware/ds1.ino.uf2</code>. Drag and drop (or copy) the <code>.uf2</code> file onto the drive.</li>
+    <li><strong>Transfer the Firmware</strong>: Locate the compiled firmware file on <code>github.com/ghostintranslation/ds1</code> under <code>firmware/</code> or on the website. Drag and drop (or copy) the <code>.uf2</code> file onto the drive.</li>
     <li><strong>Automatic Reboot</strong>: The Pico 2 will write the new firmware to its flash memory, automatically eject/unmount, and reboot with the updated firmware running.</li>
   </ol>
 
